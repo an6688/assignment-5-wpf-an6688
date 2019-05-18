@@ -20,9 +20,53 @@ namespace Assignment5
     /// </summary>
     public partial class MainWindow : Window
     {
+        public bool mainNarratorFlag;
+
         public MainWindow()
         {
             InitializeComponent();
+        }
+
+        private void BtnAmphibiansLink1_Click(object sender, RoutedEventArgs e)
+        {
+            this.Hide();
+            Amphibians amphibiansWin = new Amphibians(this);
+            amphibiansWin.Show();
+        }
+
+        private void BtnClassificationLink1_Click(object sender, RoutedEventArgs e)
+        {
+            this.Hide();
+            Classification classificationWin = new Classification(this);
+            classificationWin.Show();
+        }
+
+        private void BtnMammalsLink1_Click(object sender, RoutedEventArgs e)
+        {
+            this.Hide();
+            Mammals mammalsWin = new Mammals(this);
+            mammalsWin.Show();
+        }
+
+        private void BtnBirdsLink1_Click(object sender, RoutedEventArgs e)
+        {
+            this.Hide();
+            Birds birdsWin = new Birds(this);
+            birdsWin.Show();
+        }
+
+        private void BtnReptilesLink1_Click(object sender, RoutedEventArgs e)
+        {
+            this.Hide();
+            Reptiles reptilesWin = new Reptiles(this);
+            reptilesWin.Show();
+        }
+
+        private void BtnFishLink1_Click(object sender, RoutedEventArgs e)
+        {
+            this.Hide();
+            MarineLife marineLifeWin = new MarineLife(this);
+            marineLifeWin.Show();
         }
     }
 }

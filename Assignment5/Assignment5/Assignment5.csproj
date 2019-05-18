@@ -55,20 +55,62 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="MarineLife.xaml.cs">
+      <DependentUpon>MarineLife.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Reptiles.xaml.cs">
+      <DependentUpon>Reptiles.xaml</DependentUpon>
+    </Compile>
+    <Page Include="Amphibians.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Birds.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Classification.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="MainWindow.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
+    <Compile Include="Amphibians.xaml.cs">
+      <DependentUpon>Amphibians.xaml</DependentUpon>
+    </Compile>
     <Compile Include="App.xaml.cs">
       <DependentUpon>App.xaml</DependentUpon>
       <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Birds.xaml.cs">
+      <DependentUpon>Birds.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Classification.xaml.cs">
+      <DependentUpon>Classification.xaml</DependentUpon>
     </Compile>
     <Compile Include="MainWindow.xaml.cs">
       <DependentUpon>MainWindow.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
+    <Page Include="Mammals.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="MarineLife.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Reptiles.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Mammals.xaml.cs">
+      <DependentUpon>Mammals.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs">
       <SubType>Code</SubType>
     </Compile>
@@ -93,6 +135,30 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="images\penguin.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="images\San-Diego-Zoo.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="images\frogs.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="images\classification.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="images\birds.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="images\mammals.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="images\reptiles.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="images\sealife.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
