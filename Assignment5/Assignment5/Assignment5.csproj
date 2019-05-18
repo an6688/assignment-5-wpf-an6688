@@ -37,6 +37,8 @@
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
     <Reference Include="System.Xml" />
     <Reference Include="Microsoft.CSharp" />
     <Reference Include="System.Core" />
@@ -60,6 +62,9 @@
     </Compile>
     <Compile Include="Reptiles.xaml.cs">
       <DependentUpon>Reptiles.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="SubscribeForm.xaml.cs">
+      <DependentUpon>SubscribeForm.xaml</DependentUpon>
     </Compile>
     <Page Include="Amphibians.xaml">
       <SubType>Designer</SubType>
@@ -103,6 +108,10 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="Reptiles.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="SubscribeForm.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -159,6 +168,9 @@
   </ItemGroup>
   <ItemGroup>
     <Resource Include="images\sealife.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="images\formbackground.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

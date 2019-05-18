@@ -7,6 +7,6 @@
         mc:Ignorable="d"
         Title="MarineLife" Height="720" Width="1280" Icon="images/penguin.png" ResizeMode="CanMinimize" WindowStartupLocation="CenterScreen" Closed="Window_Closed">
     <Grid>
-        <Image Source="images/sealife.jpg" Stretch="Fill" Margin="197,149,-197.4,-148.6"/>
+        <Image Source="images/sealife.jpg" Stretch="Fill"/>
     </Grid>
 </Window>

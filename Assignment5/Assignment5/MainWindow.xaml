@@ -14,5 +14,7 @@
         <Button x:Name="btnReptilesLink1" Style="{StaticResource RoundButtonTemplate}" Content="Reptiles" FontWeight="ExtraBold" HorizontalAlignment="Left" Margin="1080,270,0,0" VerticalAlignment="Top" Width="157" Height="48" Click="BtnReptilesLink1_Click"/>
         <Button x:Name="btnFishLink1" Style="{StaticResource RoundButtonTemplate}" Content="Marine Life" FontWeight="ExtraBold" HorizontalAlignment="Left" Margin="1080,320,0,0" VerticalAlignment="Top" Width="157" Height="48" Click="BtnFishLink1_Click"/>
         <Button x:Name="btnClassificationLink1" Style="{StaticResource RoundButtonTemplate}" Content="Classification of Animals" FontWeight="ExtraBold" HorizontalAlignment="Left" Margin="1080,370,0,0" VerticalAlignment="Top" Width="157" Height="48" Click="BtnClassificationLink1_Click"/>
+        <Button x:Name="btnSubscribe" Style="{StaticResource RoundButtonTemplate}" Content="Subscribe" FontWeight="ExtraBold" HorizontalAlignment="Left" Margin="1080,420,0,0" VerticalAlignment="Top" Width="157" Height="48" Click="BtnSubscribe_OnClick"/>
+
     </Grid>
 </Window>
