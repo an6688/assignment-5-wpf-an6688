@@ -5,13 +5,23 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Assignment5"
         mc:Ignorable="d"
-        Title="SubscribeForm" Height="450" Width="800">
+        Title="SubscribeForm" Height="450" Width="800" Icon="images/penguin.png" ResizeMode="NoResize" WindowStartupLocation="CenterScreen">
     <Grid>
         <Image Source="images/formbackground.jpg" Stretch="Fill"/>
-        <TextBox Name="FullName" HorizontalAlignment="Left" Height="23" Margin="269,105,0,0" TextWrapping="Wrap" Text="Full Name" VerticalAlignment="Top" Width="120" AllowDrop="False"/>
-        <TextBox Name="EmailAddress" HorizontalAlignment="Left" Height="23" Margin="269,148,0,0" TextWrapping="Wrap" Text="Email Address" VerticalAlignment="Top" Width="120" AllowDrop="False"/>
-        <Button Name="btnSubmit" Click="submitForm" Content="Submit" HorizontalAlignment="Left" Margin="289,207,0,0" VerticalAlignment="Top" Width="75"/>
-        <TextBlock Name="ErrorMessage" HorizontalAlignment="Left" Margin="430,128,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Visibility="Hidden"/>
+
+        <TextBox Name="FullName" HorizontalAlignment="Left" Height="23" Margin="269,105,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" AllowDrop="False"/>
+        <TextBox Name="EmailAddress" HorizontalAlignment="Left" Height="23" Margin="269,164,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" AllowDrop="False"/>
+        <Button Name="btnSubmit" Click="submitForm" Content="Submit" HorizontalAlignment="Left" Margin="269,206,0,0" VerticalAlignment="Top" Width="142" Background="#FFC71717" FontWeight="Bold"/>
+        <TextBlock Name="ErrorMessage" HorizontalAlignment="Left" Margin="430,128,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Visibility="Hidden" Foreground="#FFE00B0B" FontSize="16" Background="Black"/>
+        <Label Content="Enter your Full Name" HorizontalAlignment="Left" Margin="269,74,0,0" VerticalAlignment="Top" Width="142" Foreground="#FFD6DD29" Background="#FF170404">
+            <Label.BorderBrush>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="Black" Offset="0"/>
+                    <GradientStop Color="#FFD6DD29" Offset="1"/>
+                </LinearGradientBrush>
+            </Label.BorderBrush>
+        </Label>
+        <Label Name="lblEmail" Content="Enter your Email Address" HorizontalAlignment="Left" Margin="269,133,0,0" VerticalAlignment="Top" Foreground="#FFD6DD29" Background="#FF170404"/>
 
     </Grid>
 </Window>
