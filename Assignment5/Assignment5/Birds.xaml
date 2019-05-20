@@ -7,6 +7,28 @@
         mc:Ignorable="d"
         Title="Birds" Height="720" Width="1280" Icon="images/penguin.png" ResizeMode="CanMinimize" WindowStartupLocation="CenterScreen" Closed="Window_Closed">
     <Grid>
-        <Image Source="images/birds.jpg" Stretch="Fill"/>
+        <Image Source="images/birds.jpg" Stretch="Fill" Margin="10,10,-10.4,-9.6"/>
+        <Button Opacity="0" BorderBrush="Transparent" Background="Transparent" HorizontalAlignment="Left" Margin="1015,57,0,0" VerticalAlignment="Top" Width="223" Height="179" Name="btnGallicolumbaLuzonica" Click="btnGallicolumbaLuzonica_Click">
+
+        </Button>
+        <Button Opacity="0" BorderBrush="Transparent" Background="Transparent" HorizontalAlignment="Left" Margin="469,57,0,0" VerticalAlignment="Top" Width="294" Height="143" Name="btnEngouleventOrdinaire" Click="BtnEngouleventOrdinaire_Click" />
+        <Button Opacity="0" BorderBrush="Transparent" Background="Transparent" HorizontalAlignment="Left" Margin="23,45,0,0" VerticalAlignment="Top" Width="250" Height="243" Name="btnPelecanus"  RenderTransformOrigin="0.5,0.5" Click="BtnPelecanus_Click">
+            <Button.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="89.972"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Button.RenderTransform>
+        </Button>
+        <Button Opacity="0" BorderBrush="Transparent" Background="Transparent" HorizontalAlignment="Left" Margin="164,302,0,0" VerticalAlignment="Top" Width="287" Height="110" Name="btnCallipeplaCalifornica" Click="BtnCallipeplaCalifornica_Click"  />
+        <Button Opacity="0" BorderBrush="Transparent" Background="Transparent" HorizontalAlignment="Left" Margin="514,228,0,0" VerticalAlignment="Top" Width="249" Height="204" Name="btnPlatycercusEximius" Click="BtnPlatycercusEximius_OnClick"/>
+        <Button Opacity="0" BorderBrush="Transparent" Background="Transparent" HorizontalAlignment="Left" Margin="819,255,0,0" VerticalAlignment="Top" Width="295" Height="132" Name="btnTragopanFromHastings" Click="BtnTragopanFromHastings_OnClick" />
+        <Button Opacity="0" BorderBrush="Transparent" Background="Transparent" HorizontalAlignment="Left" Height="188" Margin="23,438,0,0" VerticalAlignment="Top" Width="244" Name="btnHoccoRoux" Click="BtnHoccoRoux_OnClick"/>
+        <Button Opacity="0" BorderBrush="Transparent" Background="Transparent" HorizontalAlignment="Left" Margin="349,462,0,0" VerticalAlignment="Top" Width="308" Height="164" Name="btnMouetteRieuse" Click="BtnMouetteRieuse_OnClick" />
+        <Button Opacity="0" BorderBrush="Transparent" Background="Transparent" HorizontalAlignment="Left" Margin="694,448,0,0" VerticalAlignment="Top" Width="273" Height="178" Name="btnDiomedeidae" Click="BtnDiomedeidae_OnClick"/>
+        <Button Opacity="0" BorderBrush="Transparent" Background="Transparent" HorizontalAlignment="Left" Margin="1081,392,0,0" VerticalAlignment="Top" Width="170" Height="248" Name="btnChouetteEffraie" Click="BtnChouetteEffraie_OnClick"/>
+
     </Grid>
 </Window>
