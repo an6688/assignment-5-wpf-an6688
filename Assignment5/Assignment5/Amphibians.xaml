@@ -9,5 +9,14 @@
     <Grid>
         <Label x:Name="ampLBNarration" Content="Label" HorizontalAlignment="Left" Margin="38,646,0,0" VerticalAlignment="Top"/>
         <Image Source="images/frogs.jpg" Stretch="Fill"/>
+        <Button Opacity="0" BorderBrush="Transparent" Background="Transparent" HorizontalAlignment="Left" Margin="10,105,0,0" VerticalAlignment="Top" Width="386" Height="150" Name="btnClownTreeFrog" Click="BtnClownTreeFrog_OnClick" />
+        <Button Opacity="0" BorderBrush="Transparent" Background="Transparent" HorizontalAlignment="Left" Margin="10,315,0,0" VerticalAlignment="Top" Width="350" Height="166" Name="btnMonkeyFrog" Click="BtnMonkeyFrog_OnClick" />
+        <Button Opacity="0" BorderBrush="Transparent" Background="Transparent" HorizontalAlignment="Left" Margin="10,556,0,0" VerticalAlignment="Top" Width="350" Height="124" Name="btnMilkFrog"  Click="BtnMilkFrog_OnClick"/>
+        <Button Opacity="0" BorderBrush="Transparent" Background="Transparent" HorizontalAlignment="Left" Margin="421,556,0,0" VerticalAlignment="Top" Width="245" Height="124" Name="btnPoisonDartFrog" Click="BtnPoisonDartFrog_OnClick" />
+        <Button Opacity="0" BorderBrush="Transparent" Background="Transparent" HorizontalAlignment="Left" Margin="829,552,0,0" VerticalAlignment="Top" Width="435" Height="128" Name="btnHornedFrog" Click="BtnHornedFrog_OnClick" />
+        <Button Opacity="0" BorderBrush="Transparent" Background="Transparent" HorizontalAlignment="Left" Margin="1006,341,0,0" VerticalAlignment="Top" Width="215" Height="174" Name="btnEmeraldGlassFrog" Click="BtnEmeraldGlassFrog_OnClick" />
+        <Button Opacity="0" BorderBrush="Transparent" Background="Transparent" HorizontalAlignment="Left" Margin="393,260,0,0" VerticalAlignment="Top" Width="385" Height="221" Name="btnSmokeyJungleFrog" Click="BtnSmokeyJungleFrog_OnClick" />
+        <Button Opacity="0" BorderBrush="Transparent" Background="Transparent" HorizontalAlignment="Left" Margin="829,79,0,0" VerticalAlignment="Top" Width="413" Height="176" Name="btnSplendedLeapFrog" Click="BtnSplendedLeapFrog_OnClick"/>
+        <Button Opacity="0" BorderBrush="Transparent" Background="Transparent" HorizontalAlignment="Left" Margin="421,79,0,0" VerticalAlignment="Top" Width="357" Height="135" Name="btnAmazonianPoisonFrog" Click="BtnAmazonianPoisonFrog_OnClick"/>
     </Grid>
 </Window>

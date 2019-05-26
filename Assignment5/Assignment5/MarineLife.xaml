@@ -8,5 +8,31 @@
         Title="MarineLife" Height="720" Width="1280" Icon="images/penguin.png" ResizeMode="CanMinimize" WindowStartupLocation="CenterScreen" Closed="Window_Closed">
     <Grid>
         <Image Source="images/sealife.jpg" Stretch="Fill"/>
+        <Button Opacity="0" BorderBrush="Transparent" Background="Transparent" HorizontalAlignment="Left" Margin="304,54,0,0" VerticalAlignment="Top" Width="229" Height="46" Name="btnTigerShark" Click="BtnTigerShark_OnClick" />
+        <Button Opacity="0" BorderBrush="Transparent" Background="Transparent" HorizontalAlignment="Left" Margin="663,54,0,0" VerticalAlignment="Top" Width="129" Height="73" Name="btnOceanSunfish" Click="BtnOceanSunfish_OnClick" />
+        <Button Opacity="0" BorderBrush="Transparent" Background="Transparent" HorizontalAlignment="Left" Margin="823,66,0,0" VerticalAlignment="Top" Width="120" Height="54" Name="btnLionfish"  Click="BtnLionfish_OnClick"/>
+        <Button Opacity="0" BorderBrush="Transparent" Background="Transparent" HorizontalAlignment="Left" Margin="1037,54,0,0" VerticalAlignment="Top" Width="205" Height="57" Name="btnDolphin" Click="BtnDolphin_OnClick"/>
+        <Button Opacity="0" BorderBrush="Transparent" Background="Transparent" HorizontalAlignment="Left" Margin="1114,132,0,0" VerticalAlignment="Top" Width="128" Height="106" Name="btnReefButterflyfish" Click="BtnReefButterflyfish_OnClick" />
+        <Button Opacity="0" BorderBrush="Transparent" Background="Transparent" HorizontalAlignment="Left" Margin="877,145,0,0" VerticalAlignment="Top" Width="200" Height="93" Name="btnGreenSeaTurtle" Click="BtnGreenSeaTurtle_OnClick" />
+        <Button Opacity="0" BorderBrush="Transparent" Background="Transparent" HorizontalAlignment="Left" Margin="248,230,0,0" VerticalAlignment="Top" Width="197" Height="58" Name="btnMahiMahi" Click="BtnMahiMahi_OnClick" />
+        <Button Opacity="0" BorderBrush="Transparent" Background="Transparent" HorizontalAlignment="Left" Margin="280,145,0,0" VerticalAlignment="Top" Width="420" Height="53" Name="btnHumbackWhale" Click="BtnHumbackWhale_OnClick" />
+        <Button Opacity="0" BorderBrush="Transparent" Background="Transparent" HorizontalAlignment="Left" Margin="280,334,0,0" VerticalAlignment="Top" Width="200" Height="44" Name="btnLanternShark" Click="BtnLanternShark_OnClick" />
+        <Button Opacity="0" BorderBrush="Transparent" Background="Transparent" HorizontalAlignment="Left" Margin="280,419,0,0" VerticalAlignment="Top" Width="253" Height="102" Name="btnGiantSquid" Click="BtnGiantSquid_OnClick" />
+        <Button Opacity="0" BorderBrush="Transparent" Background="Transparent" HorizontalAlignment="Left" Margin="280,583,0,0" VerticalAlignment="Top" Width="164" Height="75" Name="btnAnglerFish" Click="BtnAnglerFish_OnClick" />
+        <Button Opacity="0" BorderBrush="Transparent" Background="Transparent" HorizontalAlignment="Left" Margin="539,534,0,0" VerticalAlignment="Top" Width="253" Height="79" Name="btnBlackSwallower" Click="BtnBlackSwallower_OnClick" />
+        <Button Opacity="0" BorderBrush="Transparent" Background="Transparent" HorizontalAlignment="Left" Margin="835,583,0,0" VerticalAlignment="Top" Width="117" Height="97" Name="btnGiantTubeWorms" Click="BtnGiantTubeWorms_OnClick"/>
+        <Button Opacity="0" BorderBrush="Transparent" Background="Transparent" HorizontalAlignment="Left" Margin="1002,534,0,0" VerticalAlignment="Top" Width="213" Height="93" Name="btnVampireSquid" Click="BtnVampireSquid_OnClick" />
+        <Button Opacity="0" BorderBrush="Transparent" Background="Transparent" HorizontalAlignment="Left" Margin="1051,392,0,0" VerticalAlignment="Top" Width="141" Height="73" Name="btnHatchetFish" Click="BtnHatchetFish_OnClick"/>
+        <Button Opacity="0" BorderBrush="Transparent" Background="Transparent" HorizontalAlignment="Left" Height="69" Margin="900,405,0,0" VerticalAlignment="Top" Width="52" Name="btnCombJelly" Click="BtnCombJelly_OnClick"/>
+        <Button Opacity="0" BorderBrush="Transparent" Background="Transparent" HorizontalAlignment="Left" Margin="557,300,0,0" VerticalAlignment="Top" Width="564" Height="87" RenderTransformOrigin="0.5,0.5" Name="btnSpermWhale" Click="BtnSpermWhale_OnClick">
+            <Button.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="-10.877"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Button.RenderTransform>
+        </Button>
     </Grid>
 </Window>

@@ -7,6 +7,14 @@
         mc:Ignorable="d"
         Title="Reptiles" Height="720" Width="1280" Icon="images/penguin.png" ResizeMode="CanMinimize" WindowStartupLocation="CenterScreen" Closed="Window_Closed">
     <Grid>
-        <Image Source="images/reptiles.jpg" Stretch="Fill"/>
+        <Image Source="images/reptiles.jpg" Stretch="Fill" Margin="0,0,-0.4,0.4"/>
+        <Button Opacity="0" BorderBrush="Transparent" Background="Transparent" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Width="250" Height="124" Name="btnSpinySoftShellTurtle" Click="BtnSpinySoftShellTurtle_OnClick"/>
+        <Button Opacity="0" BorderBrush="Transparent" Background="Transparent" HorizontalAlignment="Left" Margin="345,10,0,0" VerticalAlignment="Top" Width="298" Height="209" Name="btnGreenIguana" Click="BtnGreenIguana_OnClick" />
+        <Button Opacity="0" BorderBrush="Transparent" Background="Transparent" HorizontalAlignment="Left" Margin="26,264,0,0" VerticalAlignment="Top" Width="118" Height="91" Name="btnWhiteBelliedWormWizard" Click="BtnWhiteBelliedWormWizard_OnClick" />
+        <Button Opacity="0" BorderBrush="Transparent" Background="Transparent" HorizontalAlignment="Left" Margin="662,10,0,0" VerticalAlignment="Top" Width="602" Height="193" Name="btnCrocodile" Click="BtnCrocodile_OnClick"/>
+        <Button Opacity="0" BorderBrush="Transparent" Background="Transparent" HorizontalAlignment="Left" Margin="498,237,0,0" VerticalAlignment="Top" Width="403" Height="156" Name="btnTuatara" Click="BtnTuatara_OnClick"/>
+        <Button Opacity="0" BorderBrush="Transparent" Background="Transparent" HorizontalAlignment="Left" Margin="996,264,0,0" VerticalAlignment="Top" Width="268" Height="129" Name="btnRattlesnake" Click="BtnRattlesnake_OnClick" />
+        <Button Opacity="0" BorderBrush="Transparent" Background="Transparent" HorizontalAlignment="Left" Margin="724,469,0,0" VerticalAlignment="Top" Width="418" Height="170" Name="btnSeaTurtle" Click="BtnSeaTurtle_OnClick" />
+        <Button Opacity="0" BorderBrush="Transparent" Background="Transparent" HorizontalAlignment="Left" Margin="26,430,0,0" VerticalAlignment="Top" Width="583" Height="209" Name="btnGalapagos" Click="BtnGalapagos_OnClick" />
     </Grid>
 </Window>

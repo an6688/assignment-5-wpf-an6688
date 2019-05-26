@@ -8,5 +8,23 @@
         Title="Mammals" Height="720" Width="1280" Icon="images/penguin.png" ResizeMode="CanMinimize" WindowStartupLocation="CenterScreen" Closed="Window_Closed">
     <Grid>
         <Image Source="images/mammals.JPG" Stretch="Fill"/>
+        <Button Opacity="0" BorderBrush="Transparent" Background="Transparent" HorizontalAlignment="Left" Margin="52,39,0,0" VerticalAlignment="Top" Width="194" Height="149" Name="btnPerissodactyla" Click="BtnPerissodactyla_OnClick"/>
+        <Button Opacity="0" BorderBrush="Transparent" Background="Transparent" HorizontalAlignment="Left" Margin="350,73,0,0" VerticalAlignment="Top" Width="111" Height="79" Name="btnPangolin" Click="BtnPangolin_OnClick"/>
+        <Button Opacity="0" BorderBrush="Transparent" Background="Transparent" HorizontalAlignment="Left" Margin="52,213,0,0" VerticalAlignment="Top" Width="357" Height="90" Name="btnSirenia" Click="BtnSirenia_OnClick" />
+        <Button Opacity="0" BorderBrush="Transparent" Background="Transparent" HorizontalAlignment="Left" Margin="149,341,0,0" VerticalAlignment="Top" Width="124" Height="42" Name="btnInsectivora" Click="BtnInsectivora_OnClick" />
+        <Button Opacity="0" BorderBrush="Transparent" Background="Transparent" HorizontalAlignment="Left" Margin="290,331,0,0" VerticalAlignment="Top" Width="87" Height="101" Name="btnPrimates" Click="BtnPrimates_OnClick" />
+        <Button Opacity="0" BorderBrush="Transparent" Background="Transparent" HorizontalAlignment="Left" Margin="52,414,0,0" VerticalAlignment="Top" Width="174" Height="198" Name="btnMarsupialia" Click="BtnMarsupialia_OnClick" />
+        <Button Opacity="0" BorderBrush="Transparent" Background="Transparent" HorizontalAlignment="Left" Margin="231,586,0,0" VerticalAlignment="Top" Width="146" Height="55" Name="btnMonotremata" Click="BtnMonotremata_OnClick" />
+        <Button Opacity="0" BorderBrush="Transparent" Background="Transparent" HorizontalAlignment="Left" Margin="457,283,0,0" VerticalAlignment="Top" Width="110" Height="53" Name="btnLagomorpha" Click="BtnLagomorpha_OnClick" />
+        <Button Opacity="0" BorderBrush="Transparent" Background="Transparent" HorizontalAlignment="Left" Margin="426,414,0,0" VerticalAlignment="Top" Width="447" Height="227" Name="btnProboscidea" Click="BtnProboscidea_OnClick" />
+        <Button Opacity="0" BorderBrush="Transparent" Background="Transparent" HorizontalAlignment="Left" Margin="615,283,0,0" VerticalAlignment="Top" Width="160" Height="81" Name="btnCarnivora" Click="BtnCarnivora_OnClick" />
+        <Button Opacity="0" BorderBrush="Transparent" Background="Transparent" HorizontalAlignment="Left" Margin="457,152,0,0" VerticalAlignment="Top" Width="751" Height="77" Name="btnCetacea" Click="BtnCetacea_OnClick"/>
+        <Button Opacity="0" BorderBrush="Transparent" Background="Transparent" HorizontalAlignment="Left" Margin="1094,39,0,0" VerticalAlignment="Top" Width="134" Height="53" Name="btnChiroptera" Click="BtnChiroptera_OnClick" />
+        <Button Opacity="0" BorderBrush="Transparent" Background="Transparent" HorizontalAlignment="Left" Margin="831,322,0,0" VerticalAlignment="Top" Width="125" Height="42" Name="btnRodentia" Click="BtnRodentia_OnClick" />
+        <Button Opacity="0" BorderBrush="Transparent" Background="Transparent" HorizontalAlignment="Left" Margin="985,283,0,0" VerticalAlignment="Top" Width="243" Height="100" Name="btnArtiodactyla" Click="BtnArtiodactyla_OnClick" />
+        <Button Opacity="0" BorderBrush="Transparent" Background="Transparent" HorizontalAlignment="Left" Margin="895,400,0,0" VerticalAlignment="Top" Width="117" Height="55" Name="btnDermoptera" Click="BtnDermoptera_OnClick" />
+        <Button Opacity="0" BorderBrush="Transparent" Background="Transparent" HorizontalAlignment="Left" Margin="1032,448,0,0" VerticalAlignment="Top" Width="196" Height="81" Name="btnEdentata" Click="BtnEdentata_OnClick" />
+        <Button Opacity="0" BorderBrush="Transparent" Background="Transparent" HorizontalAlignment="Left" Margin="1032,556,0,0" VerticalAlignment="Top" Width="176" Height="85" Name="btnPinnipedia" Click="BtnPinnipedia_OnClick" />
+
     </Grid>
 </Window>
