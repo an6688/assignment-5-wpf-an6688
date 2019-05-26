@@ -4,19 +4,36 @@
              xmlns:local="clr-namespace:Assignment5"
              StartupUri="MainWindow.xaml">
     <Application.Resources>
-        <Style x:Key="RoundButtonTemplate" TargetType="Button">
-            <Setter Property="Background" Value="MediumSeaGreen"/>
-            <Setter Property="Foreground" Value="Black"/>
+        <LinearGradientBrush x:Key="GrayBlueGardientBrush"  
+                             StartPoint="0,0" EndPoint="1,1">
+            <GradientStop Color="DarkCyan" Offset="0"/>
+            <GradientStop Color="#CCCCFF" Offset="0.5"/>
+            <GradientStop Color="DarkCyan" Offset="1"/>
+        </LinearGradientBrush>
+            <Style x:Key="RoundButtonTemplate" TargetType="Button">
+
+                <Setter Property="Background" Value="{StaticResource GrayBlueGardientBrush}"/>
+            <Setter Property="Foreground" Value="DarkBlue"/>
             <Setter Property="Template">
                 <Setter.Value>
                     <ControlTemplate TargetType="Button">
-                        <Border Background="{TemplateBinding Background}" BorderBrush="Black" BorderThickness="1">
+                        <ControlTemplate.Triggers>
+                            <Trigger Property="Button.IsPressed" Value="True">
+                                <Setter Property="BorderBrush" Value="Transparent" />
+                            </Trigger>
+                            <Trigger Property="IsMouseOver" Value="True">
+                                <Setter Property="Background" Value="#FF5397D1"/>
+                            </Trigger>
+                        </ControlTemplate.Triggers>
+                        <Border CornerRadius="15"  Background="{TemplateBinding Background}" BorderBrush="Black" BorderThickness="1">
                             <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center">
                             </ContentPresenter>
                         </Border>
                     </ControlTemplate>
                 </Setter.Value>
-                </Setter>
+            </Setter>
         </Style>
+         
     </Application.Resources>
 </Application>
+

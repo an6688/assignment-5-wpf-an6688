@@ -8,13 +8,13 @@
         Title="Zoo Adventure" Height="720" Width="1280" ResizeMode="CanMinimize" WindowStartupLocation="CenterScreen" Icon="images/penguin.png">
     <Grid x:Name="what">
         <Image Source="images/San-Diego-Zoo.jpg" Stretch="Fill"/>
-        <Button x:Name="btnAmphibiansLink1" Style="{StaticResource RoundButtonTemplate}" Content="Amphibians" FontWeight="ExtraBold" HorizontalAlignment="Left" Margin="1080,120,0,0" VerticalAlignment="Top" Click="BtnAmphibiansLink1_Click" Width="157" Height="48"/>
-        <Button x:Name="btnBirdsLink1" Style="{StaticResource RoundButtonTemplate}" Content="Birds" FontWeight="ExtraBold" HorizontalAlignment="Left" Margin="1080,170,0,0" VerticalAlignment="Top" Width="157" Height="48" Click="BtnBirdsLink1_Click"/>
-        <Button x:Name="btnMammalsLink1" Style="{StaticResource RoundButtonTemplate}" Content="Mammals" FontWeight="ExtraBold" HorizontalAlignment="Left" Margin="1080,220,0,0" VerticalAlignment="Top" Width="157" Height="48" Click="BtnMammalsLink1_Click"/>
-        <Button x:Name="btnReptilesLink1" Style="{StaticResource RoundButtonTemplate}" Content="Reptiles" FontWeight="ExtraBold" HorizontalAlignment="Left" Margin="1080,270,0,0" VerticalAlignment="Top" Width="157" Height="48" Click="BtnReptilesLink1_Click"/>
-        <Button x:Name="btnFishLink1" Style="{StaticResource RoundButtonTemplate}" Content="Marine Life" FontWeight="ExtraBold" HorizontalAlignment="Left" Margin="1080,320,0,0" VerticalAlignment="Top" Width="157" Height="48" Click="BtnFishLink1_Click"/>
+        <Button x:Name="btnAmphibiansLink1" FontSize="18" FontFamily="Arial" Style="{StaticResource RoundButtonTemplate}" Content="Amphibians" FontWeight="ExtraBold" HorizontalAlignment="Left" Margin="1080,120,0,0" VerticalAlignment="Top" Click="BtnAmphibiansLink1_Click" Width="157" Height="48"/>
+        <Button x:Name="btnBirdsLink1" FontSize="18" FontFamily="Arial"  Style="{StaticResource RoundButtonTemplate}" Content="Birds" FontWeight="ExtraBold" HorizontalAlignment="Left" Margin="1080,170,0,0" VerticalAlignment="Top" Width="157" Height="48" Click="BtnBirdsLink1_Click"/>
+        <Button x:Name="btnMammalsLink1" FontSize="18" FontFamily="Arial" Style="{StaticResource RoundButtonTemplate}" Content="Mammals" FontWeight="ExtraBold" HorizontalAlignment="Left" Margin="1080,220,0,0" VerticalAlignment="Top" Width="157" Height="48" Click="BtnMammalsLink1_Click"/>
+        <Button x:Name="btnReptilesLink1" FontSize="18" FontFamily="Arial" Style="{StaticResource RoundButtonTemplate}" Content="Reptiles" FontWeight="ExtraBold" HorizontalAlignment="Left" Margin="1080,270,0,0" VerticalAlignment="Top" Width="157" Height="48" Click="BtnReptilesLink1_Click"/>
+        <Button x:Name="btnFishLink1" FontSize="18" FontFamily="Arial" Style="{StaticResource RoundButtonTemplate}" Content="Marine Life" FontWeight="ExtraBold" HorizontalAlignment="Left" Margin="1080,320,0,0" VerticalAlignment="Top" Width="157" Height="48" Click="BtnFishLink1_Click"/>
         <Button x:Name="btnClassificationLink1" Style="{StaticResource RoundButtonTemplate}" Content="Classification of Animals" FontWeight="ExtraBold" HorizontalAlignment="Left" Margin="1080,370,0,0" VerticalAlignment="Top" Width="157" Height="48" Click="BtnClassificationLink1_Click"/>
-        <Button x:Name="btnSubscribe" Style="{StaticResource RoundButtonTemplate}" Content="Subscribe" FontWeight="ExtraBold" HorizontalAlignment="Left" Margin="1080,420,0,0" VerticalAlignment="Top" Width="157" Height="48" Click="BtnSubscribe_OnClick"/>
+        <Button x:Name="btnSubscribe" FontSize="18" FontFamily="Arial" Style="{StaticResource RoundButtonTemplate}" Content="Subscribe" FontWeight="ExtraBold" HorizontalAlignment="Left" Margin="1080,420,0,0" VerticalAlignment="Top" Width="157" Height="48" Click="BtnSubscribe_OnClick"/>
 
     </Grid>
 </Window>
