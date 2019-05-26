@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -114,6 +115,19 @@ namespace Assignment5
         private void BtnSpermWhale_OnClick(object sender, RoutedEventArgs e)
         {
             MessageBox.Show("Sperm whales are part of the Odontoceti (toothed whales). The Sperm whale is the largest toothed mammal in the world! Like most odontocetes, the males are larger than the females. They can weigh up to 110,000 pounds and measure in at 20 meters. Females are much smaller, weighing 36,000 pounds and measuring in at 13 meters. They are dark-grey to black in colour. They have a large, square-shaped head with a small lower jaw (relative to the top part of the head). With no dorsal fin and only one blowhole, they, surprisingly, have similarities to the Beluga whale and Narwhal. The Sperm whale achieved its general name because of its large head. Within this head is a spermaceti organ which is filled with spermaceti oil. This oil solidifies as the water gets colder. Because of this, the sperm whale is able to dive deeper than any other whale (up to 1,200 meters!). Its head basically weighs it down and gives it momentum to swim against the pressures of the deep ocean. Also, the Sperm whale can hold its breath for 90 minutes!");
+        }
+
+        private void BtnPlay_OnClick(object sender, RoutedEventArgs e)
+        {
+            Play();
+        }
+
+        private void Play()
+        {
+            string soundFile = @"sounds/hmpback1.wav";
+            var sound = new System.Media.SoundPlayer(soundFile);
+            sound.Play();
+
         }
     }
 }

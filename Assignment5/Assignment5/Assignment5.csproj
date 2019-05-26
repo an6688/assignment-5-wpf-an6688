@@ -172,5 +172,12 @@
   <ItemGroup>
     <Resource Include="images\formbackground.jpg" />
   </ItemGroup>
+  <ItemGroup>
+    <Resource Include="images\newsoundIcon.png" />
+    <Resource Include="images\soundicon.jpg" />
+    <Content Include="sounds\hmpback1.wav">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

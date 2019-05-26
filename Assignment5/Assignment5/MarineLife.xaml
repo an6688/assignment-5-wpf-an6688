@@ -24,6 +24,12 @@
         <Button Opacity="0" BorderBrush="Transparent" Background="Transparent" HorizontalAlignment="Left" Margin="1002,534,0,0" VerticalAlignment="Top" Width="213" Height="93" Name="btnVampireSquid" Click="BtnVampireSquid_OnClick" />
         <Button Opacity="0" BorderBrush="Transparent" Background="Transparent" HorizontalAlignment="Left" Margin="1051,392,0,0" VerticalAlignment="Top" Width="141" Height="73" Name="btnHatchetFish" Click="BtnHatchetFish_OnClick"/>
         <Button Opacity="0" BorderBrush="Transparent" Background="Transparent" HorizontalAlignment="Left" Height="69" Margin="900,405,0,0" VerticalAlignment="Top" Width="52" Name="btnCombJelly" Click="BtnCombJelly_OnClick"/>
+        <StackPanel>
+            <Button
+               Background="Transparent" HorizontalAlignment="Left" Height="28"  VerticalAlignment="Center" Margin="691,279,0,0" Width="27" RenderTransformOrigin="0.43,0.043" Name="btnPlay" Click="BtnPlay_OnClick" >
+                <Image Source="images/newsoundIcon.png" Height="29" Width="18"/>
+            </Button>
+        </StackPanel>
         <Button Opacity="0" BorderBrush="Transparent" Background="Transparent" HorizontalAlignment="Left" Margin="557,300,0,0" VerticalAlignment="Top" Width="564" Height="87" RenderTransformOrigin="0.5,0.5" Name="btnSpermWhale" Click="BtnSpermWhale_OnClick">
             <Button.RenderTransform>
                 <TransformGroup>
