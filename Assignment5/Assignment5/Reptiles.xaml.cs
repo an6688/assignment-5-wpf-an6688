@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Media;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows;
@@ -69,6 +70,28 @@ namespace Assignment5
         private void BtnGalapagos_OnClick(object sender, RoutedEventArgs e)
         {
             MessageBox.Show("The top shell of a tortoise is called the carapace; the shell that covers a tortoise's belly is called the plastron. The populations of Galápagos tortoises that live on the hotter and drier islands of the Galápagos have developed shells that are saddle-shaped with a high notch above the neck. This allows them to stretch their necks higher to reach vegetation that grows above the ground. Tortoises lay eggs. Females lay their eggs in nest holes, which they cover and leave. Babies hatch in four to eight months. They are on their own from the beginning.");
+        }
+
+
+        private void BtnPlay_OnClick(object sender, RoutedEventArgs e)
+        {
+            Play();
+        }
+
+        private void Play()
+        {
+            SoundPlayer player = new SoundPlayer();
+            player.Stream = Properties.Resources.diamondbackrattlesnake;
+            try
+            {
+                player.Load();
+                player.Play();
+            }
+            catch (Exception e)
+            {
+                Console.WriteLine(e);
+                throw;
+            }
         }
     }
 }

@@ -71,13 +71,8 @@ namespace Assignment5
 
         private void BtnSubscribe_OnClick(object sender, RoutedEventArgs e)
         {
-            /*this.Hide();
-            SubscribeForm subscribeFormWin = new SubscribeForm(this);
-            subscribeFormWin.Show();*/
             SubscribeForm subscribeForm = new SubscribeForm(this);
             subscribeForm.Show();
         }
-
-        
     }
 }

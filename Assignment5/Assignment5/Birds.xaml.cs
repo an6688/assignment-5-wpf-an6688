@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Media;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows;
@@ -53,22 +54,22 @@ namespace Assignment5
 
         private void BtnPlatycercusEximius_OnClick(object sender, RoutedEventArgs e)
         {
-            MessageBox.Show(@"The eastern rosella (Platycercus eximius) is a rosella native to southeast of the Australian continent and to Tasmania.The eastern rosella was named by George Shaw in 1792. It is sometimes considered a subspecies of the pale-headed rosella (P. adscitus). The term 'white-cheeked rosella' has been used for a species or superspecies combining the pale-headed and eastern forms. Hybrids of the two taxa have been recorded where their ranges meet in northeastern New South Wales and southeastern Queensland. However, a mitochondrial study published in 2017 found that the eastern rosella was the earlier offshoot of the lineage that split into the pale-headed and northern rosellas, and that nonsister taxa were hence able to hybridise.");
+            MessageBox.Show(@"The eastern rosella (Psittacus Eximius) is a rosella native to southeast of the Australian continent and to Tasmania.The eastern rosella was named by George Shaw in 1792. It is sometimes considered a subspecies of the pale-headed rosella (P. adscitus). The term 'white-cheeked rosella' has been used for a species or superspecies combining the pale-headed and eastern forms. Hybrids of the two taxa have been recorded where their ranges meet in northeastern New South Wales and southeastern Queensland. However, a mitochondrial study published in 2017 found that the eastern rosella was the earlier offshoot of the lineage that split into the pale-headed and northern rosellas, and that nonsister taxa were hence able to hybridise.");
         }
 
         private void BtnTragopanFromHastings_OnClick(object sender, RoutedEventArgs e)
         {
-            MessageBox.Show(@"The deployed bib is turquoise blue with a purple center bar dotted with turquoise dots and carmine pink on each edge.The Western Tragopan (Tragopan melanocephalus) is a species of bird belonging to the family of Phasianidae. It is a monotypic species");
+            MessageBox.Show(@"The deployed bib is turquoise blue with a purple center bar dotted with turquoise dots and carmine pink on each edge.The Western Tragopan (Tragopan De Hastings) is a species of bird belonging to the family of Phasianidae. It is a monotypic species");
         }
 
         private void BtnHoccoRoux_OnClick(object sender, RoutedEventArgs e)
         {
-            MessageBox.Show(@"The great curassow (Crax rubra) is a large, pheasant-like bird from the Neotropical rainforests, its range extending from eastern Mexico, through Central America to western Colombia and northwestern Ecuador. Male birds are black with curly crests and yellow beaks; females come in three colour morphs, barred, rufous and black. These birds form small groups, foraging mainly on the ground for fruits and arthropods, and the occasional small vertebrate, but they roost and nest in trees. This species is monogamous, the male usually building the rather small nest of leaves in which two eggs are laid. This species is threatened by loss of habitat and hunting, and the International Union for Conservation of Nature has rated its conservation status as 'vulnerable'.");
+            MessageBox.Show(@"The great curassow (Hocco Roux) is a large, pheasant-like bird from the Neotropical rainforests, its range extending from eastern Mexico, through Central America to western Colombia and northwestern Ecuador. Male birds are black with curly crests and yellow beaks; females come in three colour morphs, barred, rufous and black. These birds form small groups, foraging mainly on the ground for fruits and arthropods, and the occasional small vertebrate, but they roost and nest in trees. This species is monogamous, the male usually building the rather small nest of leaves in which two eggs are laid. This species is threatened by loss of habitat and hunting, and the International Union for Conservation of Nature has rated its conservation status as 'vulnerable'.");
         }
 
         private void BtnMouetteRieuse_OnClick(object sender, RoutedEventArgs e)
         {
-            MessageBox.Show(@"The black-headed gull (Chroicocephalus ridibundus) is a small gull that breeds in much of Europe and Asia, and also in coastal eastern Canada. Most of the population is migratory and winters further south, but some birds reside in the milder westernmost areas of Europe. Some black-headed gulls also spend the winter in northeastern North America, where it was formerly known as the common black-headed gull. As is the case with many gulls, it was previously placed in the genus Larus.");
+            MessageBox.Show(@"The black-headed gull (Mouette Rieuse) is a small gull that breeds in much of Europe and Asia, and also in coastal eastern Canada. Most of the population is migratory and winters further south, but some birds reside in the milder westernmost areas of Europe. Some black-headed gulls also spend the winter in northeastern North America, where it was formerly known as the common black-headed gull. As is the case with many gulls, it was previously placed in the genus Larus.");
         }
 
         private void BtnDiomedeidae_OnClick(object sender, RoutedEventArgs e)
@@ -78,7 +79,28 @@ namespace Assignment5
 
         private void BtnChouetteEffraie_OnClick(object sender, RoutedEventArgs e)
         {
-            MessageBox.Show(@"The barn owl (Tyto alba) is the most widely distributed species of owl and one of the most widespread of all birds. It is also referred to as the common barn owl, to distinguish it from other species in its family, Tytonidae, which forms one of the two main lineages of living owls, the other being the typical owls (Strigidae). The barn owl is found almost everywhere in the world except polar and desert regions, in Asia north of the Himalayas, most of Indonesia, and some Pacific islands.");
+            MessageBox.Show(@"The barn owl (Chouette Effraie) is the most widely distributed species of owl and one of the most widespread of all birds. It is also referred to as the common barn owl, to distinguish it from other species in its family, Tytonidae, which forms one of the two main lineages of living owls, the other being the typical owls (Strigidae). The barn owl is found almost everywhere in the world except polar and desert regions, in Asia north of the Himalayas, most of Indonesia, and some Pacific islands.");
+        }
+
+        private void BtnPlay_OnClick(object sender, RoutedEventArgs e)
+        {
+            Play();
+        }
+
+        private void Play()
+        {
+            SoundPlayer player = new SoundPlayer();
+            player.Stream = Properties.Resources.Albatrosses;
+            try
+            {
+                player.Load();
+                player.Play();
+            }
+            catch (Exception e)
+            {
+                Console.WriteLine(e);
+                throw;
+            }
         }
     }
 }

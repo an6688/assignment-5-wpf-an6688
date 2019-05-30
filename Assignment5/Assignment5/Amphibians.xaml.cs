@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Media;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows;
@@ -75,6 +76,27 @@ namespace Assignment5
         private void BtnAmazonianPoisonFrog_OnClick(object sender, RoutedEventArgs e)
         {
             MessageBox.Show("The Amazon dart frog is one of the most widespread of all dart frog species.These poisonous animals are found across the Amazon.Their colors serve as a warning");
+        }
+
+        private void BtnPlay_OnClick(object sender, RoutedEventArgs e)
+        {
+            Play();
+        }
+
+        private void Play()
+        {
+            SoundPlayer player = new SoundPlayer();
+            player.Stream = Properties.Resources.frogs2;
+            try
+            {
+                player.Load();
+                player.Play();
+            }
+            catch (Exception e)
+            {
+                Console.WriteLine(e);
+                throw;
+            }
         }
     }
 }

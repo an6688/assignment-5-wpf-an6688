@@ -16,5 +16,8 @@
         <Button Opacity="0" BorderBrush="Transparent" Background="Transparent" HorizontalAlignment="Left" Margin="996,264,0,0" VerticalAlignment="Top" Width="268" Height="129" Name="btnRattlesnake" Click="BtnRattlesnake_OnClick" />
         <Button Opacity="0" BorderBrush="Transparent" Background="Transparent" HorizontalAlignment="Left" Margin="724,469,0,0" VerticalAlignment="Top" Width="418" Height="170" Name="btnSeaTurtle" Click="BtnSeaTurtle_OnClick" />
         <Button Opacity="0" BorderBrush="Transparent" Background="Transparent" HorizontalAlignment="Left" Margin="26,430,0,0" VerticalAlignment="Top" Width="583" Height="209" Name="btnGalapagos" Click="BtnGalapagos_OnClick" />
+        <Image Source="images/newsoundIcon.png" Margin="962,364,282.6,296.4" RenderTransformOrigin="0.5,0.5">
+        </Image>
+        <Button Opacity="0" Background="Transparent" BorderBrush="Transparent" HorizontalAlignment="Left" Margin="958,361,0,0" VerticalAlignment="Top" Width="38" Height="35" Name="btnPlay" Click="BtnPlay_OnClick" />
     </Grid>
 </Window>

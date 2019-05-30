@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Media;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows;
@@ -114,6 +115,27 @@ namespace Assignment5
         private void BtnPinnipedia_OnClick(object sender, RoutedEventArgs e)
         {
             MessageBox.Show("Seals are warm-blooded, air breathing mammals that live in or near the sea. There are many different species including fur seals, sea lions, and common seals. Learn more about seal habitats, what seals eat, how long they live and other interesting information with our fun seal facts.");
+        }
+
+        private void BtnPlay_OnClick(object sender, RoutedEventArgs e)
+        {
+            Play();
+        }
+
+        private void Play()
+        {
+            SoundPlayer player = new SoundPlayer();
+            player.Stream = Properties.Resources.elephant8;
+            try
+            {
+                player.Load();
+                player.Play();
+            }
+            catch (Exception e)
+            {
+                Console.WriteLine(e);
+                throw;
+            }
         }
     }
 }

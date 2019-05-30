@@ -29,6 +29,7 @@
         <Button Opacity="0" BorderBrush="Transparent" Background="Transparent" HorizontalAlignment="Left" Margin="349,462,0,0" VerticalAlignment="Top" Width="308" Height="164" Name="btnMouetteRieuse" Click="BtnMouetteRieuse_OnClick" />
         <Button Opacity="0" BorderBrush="Transparent" Background="Transparent" HorizontalAlignment="Left" Margin="694,448,0,0" VerticalAlignment="Top" Width="273" Height="178" Name="btnDiomedeidae" Click="BtnDiomedeidae_OnClick"/>
         <Button Opacity="0" BorderBrush="Transparent" Background="Transparent" HorizontalAlignment="Left" Margin="1081,392,0,0" VerticalAlignment="Top" Width="170" Height="248" Name="btnChouetteEffraie" Click="BtnChouetteEffraie_OnClick"/>
-
+        <Image Source="images/newsoundIcon.png" Margin="938,562,306.6,98.4" RenderTransformOrigin="0.5,0.5"></Image>
+        <Button Opacity="0" Background="Transparent" BorderBrush="Transparent" Margin="938,562,306.6,98.4" Name="btnPlay" Click="BtnPlay_OnClick" />
     </Grid>
 </Window>

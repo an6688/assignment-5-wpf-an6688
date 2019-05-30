@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
+using System.Media;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows;
@@ -124,10 +125,14 @@ namespace Assignment5
 
         private void Play()
         {
-            string soundFile = @"sounds/hmpback1.wav";
-            var sound = new System.Media.SoundPlayer(soundFile);
-            sound.Play();
-
+            SoundPlayer player = new SoundPlayer();
+            player.Stream = Properties.Resources.hmpback1;
+            try
+            {
+                player.Load();
+                player.Play();
+            }
+            catch (Exception E) { }
         }
     }
 }
